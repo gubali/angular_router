@@ -11,7 +11,7 @@ export class AppComponent {
   constructor(private router: Router, private route:ActivatedRoute) { }
   dynamicRoute() {
     this.router.navigate(['/thumbnail'], {relativeTo: this.route});
-    //this.router.navigate(['/thumbnail'], {relativeTo: this.route});
+    //this.router.navigate(['/thumbnail'], {relativeTo: this.route}); extar line added
 
   }
 }
