@@ -1,0 +1,8 @@
+routerLink= ""
+[routerlink]= ['/']
+
+129: Styling active Router Link
+
+130. Navigating Programmatically
+
+ this.route.navigateUrl('[]')
